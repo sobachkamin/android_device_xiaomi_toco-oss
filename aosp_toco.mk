@@ -15,6 +15,7 @@ TARGET_INCLUDE_STOCK_ARCORE := true
 TARGET_INCLUDE_WIFI_EXT := true
 TARGET_SUPPORTS_GOOGLE_RECORDER := true
 EXTRA_FOD_ANIMATIONS := true
+TARGET_SUPPORTS_64_BIT_APPS := true
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := aosp_toco
