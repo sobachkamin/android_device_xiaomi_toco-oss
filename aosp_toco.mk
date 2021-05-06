@@ -12,9 +12,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/toco/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/aosp/config/common.mk)
 
-PRODUCT_NAME := lineage_toco
+PRODUCT_NAME := aosp_toco
 PRODUCT_DEVICE := toco
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Mi Note 10 Lite

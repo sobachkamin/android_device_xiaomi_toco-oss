@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
 /*
-** Copyright 2020, The LineageOS Project
+** Copyright 2020 The PixelExperience Project
 **
 ** Licensed under the Apache License, Version 2.0 (the "License");
 ** you may not use this file except in compliance with the License.
@@ -18,14 +18,12 @@
 -->
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- Defines the actions shown in advanced reboot submenu -->
-    <string-array name="config_restartActionsList">
-        <item>restart</item>
-        <item>restart_recovery</item>
-        <item>restart_fastboot</item>
-        <item>restart_bootloader</item>
-    </string-array>
 
-    <!-- Whether device has a notch -->
-    <bool name="config_haveNotch">true</bool>
+    <!-- Shows the required view for in-display fingerprint -->
+    <bool name="config_supportsInDisplayFingerprint">true</bool>
+
+    <!-- Component name of the default wallpaper. This will be ImageWallpaper if not
+         specified -->
+    <string name="default_wallpaper_component" translatable="false">com.breel.wallpapers19/com.breel.wallpapers19.doodle.wallpaper.variations.DoodleWallpaperV1</string>
+
 </resources>
